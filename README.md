@@ -1,2 +1,2 @@
-# Programacion-Basica-SC-115
+# Programacion-Basica
 Repositorio de prueba, programación básica
