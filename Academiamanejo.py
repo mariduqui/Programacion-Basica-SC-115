@@ -1,10 +1,27 @@
-#Datos personales que el usuario necesita ingresar. (Mariana 1era parte)
+#Academia de manejo
+#Se solicita a la persona, el usuario y la contraseña para accesar al sistema de citas.
 
-Nombre_completo= input("Ingrese su nombre completo: ")
-Número_telefonico= input("Ingrese su número telefónico: ")
-Correo_electrónico= input ("Ingrese su correo electrónico: ")
+print("Bienvenido a la academia de manejo.")
+print("Por favor ingrese sus datos: \n")
+nombredeusuario = ""
+contrasena = ""
+
+while nombredeusuario != "admin" or contrasena != "1234":
+    nombredeusuario= input("Usuario: ")
+    contrasena= input("Contraseña: ")
+    if nombredeusuario == "admin" and contrasena == "1234":
+        print("Bienvenido.\n")
+    else:
+        print("Usuario o contraseña incorrectos, por favor intente de nuevo. \n")
+
+
+print("A continuación, ingrese sus datos personales: \n")
+nombre=input("Ingrese su nombre: ")
+telefono=input("Ingrese su número de teléfono: ")
+correo=input("Ingrese su correo electrónico: ")
 
 print("Muchas gracias por la información")
+
 
 #Curso teórico
 
